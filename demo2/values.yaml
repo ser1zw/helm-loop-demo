@@ -1,0 +1,11 @@
+appName: awesome-service
+
+service:
+  foo:
+    id: 1
+    port: 8080
+    targetGroupARN: "arn:aws:elasticloadbalancing:ap-northeast-3:999999999999:targetgroup/awesome-service-1/zzzzzzzzzzzzzzzz"
+  bar:
+    id: 2
+    port: 8081
+    targetGroupARN: "arn:aws:elasticloadbalancing:ap-northeast-3:999999999999:targetgroup/awesome-service-2/zzzzzzzzzzzzzzzz"

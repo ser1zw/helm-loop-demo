@@ -1,0 +1,4 @@
+{{- range .Values.service }}
+{{- $ctx := (merge (dict "rootCtx" $) .) -}}
+{{ template "target-group-binding-template" $ctx }}
+{{- end -}}
